@@ -1,0 +1,607 @@
+{
+  "bottlenecks": {
+    "network_issue_rate": 0.0195,
+    "conveyors": [
+      {
+        "conveyor_id": "C01",
+        "bags": 38636,
+        "issues": 1117,
+        "late": 948,
+        "mishandled": 169,
+        "avg_proc": 18.5247,
+        "p95_proc": 32.49,
+        "terminal": "Orly 1-2",
+        "length_m": 1600,
+        "issue_rate": 0.0289,
+        "ci_low": 0.0273,
+        "ci_high": 0.0306,
+        "share_of_issues": 0.1146,
+        "share_of_bags": 0.0773
+      },
+      {
+        "conveyor_id": "C02",
+        "bags": 41575,
+        "issues": 1077,
+        "late": 851,
+        "mishandled": 226,
+        "avg_proc": 17.77,
+        "p95_proc": 31.31,
+        "terminal": "Orly 1-2",
+        "length_m": 1500,
+        "issue_rate": 0.0259,
+        "ci_low": 0.0244,
+        "ci_high": 0.0275,
+        "share_of_issues": 0.1105,
+        "share_of_bags": 0.0832
+      },
+      {
+        "conveyor_id": "C07",
+        "bags": 50109,
+        "issues": 931,
+        "late": 631,
+        "mishandled": 300,
+        "avg_proc": 15.5443,
+        "p95_proc": 27.196,
+        "terminal": "Orly 3-4",
+        "length_m": 1200,
+        "issue_rate": 0.0186,
+        "ci_low": 0.0174,
+        "ci_high": 0.0198,
+        "share_of_issues": 0.0955,
+        "share_of_bags": 0.1003
+      },
+      {
+        "conveyor_id": "C12",
+        "bags": 49439,
+        "issues": 909,
+        "late": 662,
+        "mishandled": 247,
+        "avg_proc": 15.5008,
+        "p95_proc": 27.22,
+        "terminal": "Orly 3-4",
+        "length_m": 1200,
+        "issue_rate": 0.0184,
+        "ci_low": 0.0172,
+        "ci_high": 0.0196,
+        "share_of_issues": 0.0932,
+        "share_of_bags": 0.0989
+      },
+      {
+        "conveyor_id": "C03",
+        "bags": 38047,
+        "issues": 877,
+        "late": 682,
+        "mishandled": 195,
+        "avg_proc": 17.0759,
+        "p95_proc": 29.997,
+        "terminal": "Orly 1-2",
+        "length_m": 1400,
+        "issue_rate": 0.0231,
+        "ci_low": 0.0216,
+        "ci_high": 0.0246,
+        "share_of_issues": 0.0899,
+        "share_of_bags": 0.0761
+      },
+      {
+        "conveyor_id": "C08",
+        "bags": 46878,
+        "issues": 811,
+        "late": 572,
+        "mishandled": 239,
+        "avg_proc": 15.2059,
+        "p95_proc": 26.7315,
+        "terminal": "Orly 3-4",
+        "length_m": 1150,
+        "issue_rate": 0.0173,
+        "ci_low": 0.0162,
+        "ci_high": 0.0185,
+        "share_of_issues": 0.0832,
+        "share_of_bags": 0.0938
+      },
+      {
+        "conveyor_id": "C05",
+        "bags": 36023,
+        "issues": 754,
+        "late": 568,
+        "mishandled": 186,
+        "avg_proc": 16.2692,
+        "p95_proc": 28.5,
+        "terminal": "Orly 1-2",
+        "length_m": 1300,
+        "issue_rate": 0.0209,
+        "ci_low": 0.0195,
+        "ci_high": 0.0225,
+        "share_of_issues": 0.0773,
+        "share_of_bags": 0.0721
+      },
+      {
+        "conveyor_id": "C04",
+        "bags": 34284,
+        "issues": 752,
+        "late": 595,
+        "mishandled": 157,
+        "avg_proc": 16.3236,
+        "p95_proc": 28.75,
+        "terminal": "Orly 1-2",
+        "length_m": 1300,
+        "issue_rate": 0.0219,
+        "ci_low": 0.0204,
+        "ci_high": 0.0235,
+        "share_of_issues": 0.0771,
+        "share_of_bags": 0.0686
+      },
+      {
+        "conveyor_id": "C09",
+        "bags": 45950,
+        "issues": 734,
+        "late": 505,
+        "mishandled": 229,
+        "avg_proc": 14.8351,
+        "p95_proc": 26.04,
+        "terminal": "Orly 3-4",
+        "length_m": 1100,
+        "issue_rate": 0.016,
+        "ci_low": 0.0149,
+        "ci_high": 0.0172,
+        "share_of_issues": 0.0753,
+        "share_of_bags": 0.0919
+      },
+      {
+        "conveyor_id": "C06",
+        "bags": 32974,
+        "issues": 623,
+        "late": 462,
+        "mishandled": 161,
+        "avg_proc": 16.0148,
+        "p95_proc": 28.07,
+        "terminal": "Orly 1-2",
+        "length_m": 1250,
+        "issue_rate": 0.0189,
+        "ci_low": 0.0175,
+        "ci_high": 0.0204,
+        "share_of_issues": 0.0639,
+        "share_of_bags": 0.066
+      },
+      {
+        "conveyor_id": "C10",
+        "bags": 42423,
+        "issues": 592,
+        "late": 368,
+        "mishandled": 224,
+        "avg_proc": 14.0783,
+        "p95_proc": 24.62,
+        "terminal": "Orly 3-4",
+        "length_m": 1000,
+        "issue_rate": 0.014,
+        "ci_low": 0.0129,
+        "ci_high": 0.0151,
+        "share_of_issues": 0.0607,
+        "share_of_bags": 0.0849
+      },
+      {
+        "conveyor_id": "C11",
+        "bags": 43439,
+        "issues": 574,
+        "late": 369,
+        "mishandled": 205,
+        "avg_proc": 14.054,
+        "p95_proc": 24.58,
+        "terminal": "Orly 3-4",
+        "length_m": 1000,
+        "issue_rate": 0.0132,
+        "ci_low": 0.0122,
+        "ci_high": 0.0143,
+        "share_of_issues": 0.0589,
+        "share_of_bags": 0.0869
+      }
+    ],
+    "corr_length_issue_rate": 0.995,
+    "top2_share_of_issues": 0.225,
+    "top2_share_of_bags": 0.16,
+    "lead_time": {
+      "share_bags_lead_lt60": 0.1703,
+      "share_late_bags_lead_lt60": 0.9659,
+      "late_rate_lead_le45": 0.2403,
+      "late_rate_lead_60_90": 0.0015
+    },
+    "lead_time_table": [
+      {
+        "lead_bin": "≤ 45 min",
+        "bags": 21710,
+        "late": 5217,
+        "mishandled": 110,
+        "late_rate": 0.2403,
+        "mishandled_rate": 0.0051
+      },
+      {
+        "lead_bin": "45-60",
+        "bags": 63498,
+        "late": 1750,
+        "mishandled": 320,
+        "late_rate": 0.0276,
+        "mishandled_rate": 0.005
+      },
+      {
+        "lead_bin": "60-90",
+        "bags": 159860,
+        "late": 237,
+        "mishandled": 861,
+        "late_rate": 0.0015,
+        "mishandled_rate": 0.0054
+      },
+      {
+        "lead_bin": "90-120",
+        "bags": 121361,
+        "late": 9,
+        "mishandled": 592,
+        "late_rate": 0.0001,
+        "mishandled_rate": 0.0049
+      },
+      {
+        "lead_bin": "120-180",
+        "bags": 104750,
+        "late": 0,
+        "mishandled": 507,
+        "late_rate": 0.0,
+        "mishandled_rate": 0.0048
+      },
+      {
+        "lead_bin": "> 180",
+        "bags": 28598,
+        "late": 0,
+        "mishandled": 148,
+        "late_rate": 0.0,
+        "mishandled_rate": 0.0052
+      }
+    ],
+    "network_load": [
+      {
+        "load_bin": "< 25 %",
+        "hours": 1692,
+        "avg_proc": 15.633,
+        "p95_proc": 25.107
+      },
+      {
+        "load_bin": "25-50 %",
+        "hours": 1990,
+        "avg_proc": 15.719,
+        "p95_proc": 26.835
+      },
+      {
+        "load_bin": "50-75 %",
+        "hours": 1330,
+        "avg_proc": 15.911,
+        "p95_proc": 27.451
+      },
+      {
+        "load_bin": "75-100 %",
+        "hours": 577,
+        "avg_proc": 16.047,
+        "p95_proc": 28.005
+      },
+      {
+        "load_bin": "> 100 %",
+        "hours": 291,
+        "avg_proc": 16.193,
+        "p95_proc": 28.22
+      }
+    ],
+    "network_capacity_bags_per_hour": 172.0,
+    "peak_issue_hours": [
+      22,
+      18,
+      17
+    ]
+  },
+  "forecast": {
+    "train_period": [
+      "2025-11-04",
+      "2026-07-31"
+    ],
+    "test_period": [
+      "2026-08-01",
+      "2026-09-29"
+    ],
+    "daily_metrics": {
+      "Naïf (J-7)": {
+        "MAE": 116.73,
+        "MAPE_%": 8.08,
+        "WAPE_%": 7.82
+      },
+      "Régression Ridge": {
+        "MAE": 63.33,
+        "MAPE_%": 3.99,
+        "WAPE_%": 4.24
+      },
+      "Gradient boosting": {
+        "MAE": 58.85,
+        "MAPE_%": 3.77,
+        "WAPE_%": 3.94
+      }
+    },
+    "peak_detection": {
+      "Naïf (J-7)": {
+        "threshold": 1746.714,
+        "actual_peak_days": 14,
+        "recall": 1.0,
+        "precision": 0.824
+      },
+      "Régression Ridge": {
+        "threshold": 1746.714,
+        "actual_peak_days": 14,
+        "recall": 1.0,
+        "precision": 1.0
+      },
+      "Gradient boosting": {
+        "threshold": 1746.714,
+        "actual_peak_days": 14,
+        "recall": 1.0,
+        "precision": 1.0
+      }
+    },
+    "peak_bias_%": {
+      "Naïf (J-7)": 1.7,
+      "Régression Ridge": -4.05,
+      "Gradient boosting": -1.18
+    },
+    "top5_days_bias_%_gbm": -9.09,
+    "best_daily_model": "Gradient boosting",
+    "hourly_schedule": {
+      "WAPE_%": 8.73,
+      "peak_hour_MAPE_%": 6.45,
+      "peak_hour_MAE": 12.0,
+      "hour_of_peak_hit_%": 80.0,
+      "hour_of_peak_within_1h_%": 86.7
+    },
+    "hourly": {
+      "model": "Gradient boosting",
+      "WAPE_%_model": 44.34,
+      "WAPE_%_naive": 64.64,
+      "peak_hour_MAPE_%_profile": 31.36,
+      "peak_hour_MAPE_%_model": 15.29,
+      "peak_hour_MAPE_%_naive": 20.72,
+      "peak_hour_actual_mean": 184.1
+    },
+    "hourly_example_day": "2026-08-09"
+  },
+  "simulation": {
+    "day": "2026-08-09",
+    "replications": 20,
+    "outage": {
+      "conveyor": "C02",
+      "start_hour": 13.0,
+      "duration_min": 60
+    },
+    "real_day": {
+      "bags": 2132,
+      "late_rate": 0.026,
+      "mean_proc": 18.369,
+      "p95_proc": 32.801
+    },
+    "transport_scale": 1.18,
+    "scenarios": [
+      {
+        "scenario": "Référence",
+        "bags": 2132.0,
+        "late_rate_%": 2.39,
+        "late_rate_sd": 0.25,
+        "mean_proc": 18.45,
+        "p95_proc": 32.45,
+        "p95_sd": 0.61,
+        "max_queue": 6.1
+      },
+      {
+        "scenario": "Volume +20 %",
+        "bags": 2558.0,
+        "late_rate_%": 2.7,
+        "late_rate_sd": 0.26,
+        "mean_proc": 18.74,
+        "p95_proc": 32.69,
+        "p95_sd": 0.6,
+        "max_queue": 12.9
+      },
+      {
+        "scenario": "Panne C02 1 h (file d'attente)",
+        "bags": 2132.0,
+        "late_rate_%": 3.57,
+        "late_rate_sd": 0.25,
+        "mean_proc": 19.15,
+        "p95_proc": 34.76,
+        "p95_sd": 0.59,
+        "max_queue": 36.0
+      },
+      {
+        "scenario": "Panne C02 1 h + reroutage",
+        "bags": 2132.0,
+        "late_rate_%": 2.39,
+        "late_rate_sd": 0.25,
+        "mean_proc": 18.45,
+        "p95_proc": 32.43,
+        "p95_sd": 0.63,
+        "max_queue": 6.1
+      },
+      {
+        "scenario": "Volume +20 % + panne + reroutage",
+        "bags": 2558.0,
+        "late_rate_%": 2.72,
+        "late_rate_sd": 0.24,
+        "mean_proc": 18.75,
+        "p95_proc": 32.75,
+        "p95_sd": 0.59,
+        "max_queue": 12.9
+      }
+    ],
+    "calibration": [
+      {
+        "conveyor_id": "C01",
+        "capacity_per_h": 101.2,
+        "mean_service": 0.59,
+        "transport_median": 16.3,
+        "sigma": 0.37,
+        "terminal": "Orly 1-2",
+        "length_m": 1600
+      },
+      {
+        "conveyor_id": "C02",
+        "capacity_per_h": 116.15,
+        "mean_service": 0.52,
+        "transport_median": 15.57,
+        "sigma": 0.38,
+        "terminal": "Orly 1-2",
+        "length_m": 1500
+      },
+      {
+        "conveyor_id": "C03",
+        "capacity_per_h": 97.75,
+        "mean_service": 0.61,
+        "transport_median": 15.19,
+        "sigma": 0.42,
+        "terminal": "Orly 1-2",
+        "length_m": 1400
+      },
+      {
+        "conveyor_id": "C04",
+        "capacity_per_h": 116.15,
+        "mean_service": 0.52,
+        "transport_median": 14.56,
+        "sigma": 0.39,
+        "terminal": "Orly 1-2",
+        "length_m": 1300
+      },
+      {
+        "conveyor_id": "C05",
+        "capacity_per_h": 101.2,
+        "mean_service": 0.59,
+        "transport_median": 14.24,
+        "sigma": 0.38,
+        "terminal": "Orly 1-2",
+        "length_m": 1300
+      },
+      {
+        "conveyor_id": "C06",
+        "capacity_per_h": 101.2,
+        "mean_service": 0.59,
+        "transport_median": 14.18,
+        "sigma": 0.38,
+        "terminal": "Orly 1-2",
+        "length_m": 1250
+      },
+      {
+        "conveyor_id": "C07",
+        "capacity_per_h": 116.15,
+        "mean_service": 0.52,
+        "transport_median": 13.54,
+        "sigma": 0.38,
+        "terminal": "Orly 3-4",
+        "length_m": 1200
+      },
+      {
+        "conveyor_id": "C08",
+        "capacity_per_h": 133.4,
+        "mean_service": 0.45,
+        "transport_median": 13.24,
+        "sigma": 0.39,
+        "terminal": "Orly 3-4",
+        "length_m": 1150
+      },
+      {
+        "conveyor_id": "C09",
+        "capacity_per_h": 109.25,
+        "mean_service": 0.55,
+        "transport_median": 12.86,
+        "sigma": 0.38,
+        "terminal": "Orly 3-4",
+        "length_m": 1100
+      },
+      {
+        "conveyor_id": "C10",
+        "capacity_per_h": 135.7,
+        "mean_service": 0.44,
+        "transport_median": 12.42,
+        "sigma": 0.38,
+        "terminal": "Orly 3-4",
+        "length_m": 1000
+      },
+      {
+        "conveyor_id": "C11",
+        "capacity_per_h": 136.85,
+        "mean_service": 0.44,
+        "transport_median": 12.45,
+        "sigma": 0.39,
+        "terminal": "Orly 3-4",
+        "length_m": 1000
+      },
+      {
+        "conveyor_id": "C12",
+        "capacity_per_h": 132.25,
+        "mean_service": 0.45,
+        "transport_median": 13.7,
+        "sigma": 0.39,
+        "terminal": "Orly 3-4",
+        "length_m": 1200
+      }
+    ]
+  },
+  "anomalies": {
+    "windows_evaluated": 35419,
+    "windows_overlapping_incident": 23,
+    "z_threshold": 4.0,
+    "window": "30min",
+    "min_bags": 3,
+    "robust_zscore": {
+      "flagged_windows": 84,
+      "true_positive_windows": 17,
+      "precision": 0.202,
+      "window_recall": 0.739,
+      "incidents_in_evaluable_windows": 12,
+      "incidents_detected": 8
+    },
+    "threshold_sweep": [
+      {
+        "z": 3,
+        "alerts": 328,
+        "precision": 0.052,
+        "window_recall": 0.739,
+        "incidents_detected": 8
+      },
+      {
+        "z": 4,
+        "alerts": 84,
+        "precision": 0.202,
+        "window_recall": 0.739,
+        "incidents_detected": 8
+      },
+      {
+        "z": 5,
+        "alerts": 28,
+        "precision": 0.571,
+        "window_recall": 0.696,
+        "incidents_detected": 7
+      },
+      {
+        "z": 6,
+        "alerts": 17,
+        "precision": 0.882,
+        "window_recall": 0.652,
+        "incidents_detected": 6
+      },
+      {
+        "z": 8,
+        "alerts": 11,
+        "precision": 1.0,
+        "window_recall": 0.478,
+        "incidents_detected": 5
+      }
+    ],
+    "isolation_forest": {
+      "flagged_windows": 84,
+      "true_positive_windows": 12,
+      "precision": 0.143,
+      "window_recall": 0.522,
+      "incidents_in_evaluable_windows": 12,
+      "incidents_detected": 6
+    },
+    "base_rate_incident_windows": 0.0006,
+    "incidents_total": 45
+  }
+}
