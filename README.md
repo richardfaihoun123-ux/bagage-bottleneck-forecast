@@ -145,7 +145,7 @@ pip install -r requirements.txt
 # copier ici le dossier data/csv généré par le projet 1 (python generate_data.py)
 python src/run_analysis.py --data data/csv
 ```
-Durée : environ une minute. Sorties : `results/figures/*.png` et `results/summary.json`. Les chiffres peuvent varier légèrement
+Durée : une à deux minutes. Sorties : `results/figures/*.png` et `results/summary.json`. Les chiffres peuvent varier légèrement
 selon les versions des bibliothèques.
 
 ## Structure
